@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #081b29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.resume {
+    width: 800px;
+    background: rgb(195, 234, 250);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left:100px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #081b29;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.header img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.contact p {
+    margin: 5px 0;
+    padding-left: 20px;
+    color: #00abf0;
+}
+
+.contact a {
+    color: #00abf0;
+    text-decoration: none;
+}
+
+.summary, .experience, .education, .certifications, .skills {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #00abf0;
+    border-bottom: 2px solid #081b29;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #666;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+#downloadBtn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #00abf0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#downloadBtn:hover {
+    background-color: #555;
+}
