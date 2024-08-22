@@ -443,6 +443,9 @@ li {
         background: none;
         width: 100%;
     }
+    .menu-icon {
+        display: block;
+    }
     .home {
         padding: 0 5%;
     }
