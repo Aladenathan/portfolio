@@ -8,16 +8,18 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <header class="header">
-        <a href="#" class="logo">Femi Alade</a>
+   <header class="header">
+       <!-- <a href="#" class="logo">Femi Alade</a> -->
 
-        <nav class="navbar">
+        <nav class="navbar" id="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
             <a href="#services">Services</a>
-            <!-- <a href="#portfolio">portfolio</a> -->
             <a href="#contact">Contact</a>
         </nav>
+        <div class="menu-icon" id="menu-icon">
+            <i class='bx bx-menu'></i>
+        </div>
     </header>
 
     <section id="home" class="home">
@@ -89,5 +91,13 @@
 <footer class="footer">
     <p>&copy; 2024 Femi Alade. All rights reserved.</p>
 </footer>
+     <script>
+        const menuIcon = document.getElementById('menu-icon');
+        const navbar = document.getElementById('navbar');
+
+        menuIcon.addEventListener('click', () => {
+            navbar.classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
