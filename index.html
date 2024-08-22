@@ -91,12 +91,29 @@
 <footer class="footer">
     <p>&copy; 2024 Femi Alade. All rights reserved.</p>
 </footer>
-     <script>
+     <!--<script>
         const menuIcon = document.getElementById('menu-icon');
         const navbar = document.getElementById('navbar');
 
         menuIcon.addEventListener('click', () => {
             navbar.classList.toggle('active');
+        });
+    </script>-->
+     <script>
+        // Toggle menu on clicking the menu icon
+        const menuIcon = document.getElementById('menu-icon');
+        const navbar = document.getElementById('navbar');
+    
+        menuIcon.onclick = () => {
+            navbar.classList.toggle('active');
+        }
+    
+        // Close menu after clicking any link
+        const navLinks = document.querySelectorAll('.navbar a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navbar.classList.remove('active');
+            });
         });
     </script>
 </body>
