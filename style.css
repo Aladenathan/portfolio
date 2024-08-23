@@ -317,7 +317,9 @@ body {
     background: #081b29;
     opacity: .8;
 }
-
+.footer{
+    background: #00abf0;
+}
 @keyframes showRight {
     100% {
         width: 0;
