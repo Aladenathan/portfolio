@@ -451,7 +451,7 @@ li {
     .navbar {
         display: none;
         flex-direction: column;
-        background: #000;
+        background: #081b29;
         width: 100%;
     }
     .menu-icon {
@@ -531,7 +531,7 @@ li {
         align-items: flex-start;
         padding: 20px 5%;
         position: fixed;
-        background: none;
+        background: #081b29;
     }
 
     .navbar a {
