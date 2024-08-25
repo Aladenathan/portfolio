@@ -16,7 +16,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: transparent;
+    background: #000;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,7 +65,7 @@ body {
     display: none;
     font-size: 28px;
     cursor: pointer;
-    color: #ededed;
+    color: #fff;
 }
 .navbar.active {
     display: block;
@@ -451,7 +451,7 @@ li {
     .navbar {
         display: none;
         flex-direction: column;
-        background: none;
+        background: #000;
         width: 100%;
     }
     .menu-icon {
