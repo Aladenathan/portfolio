@@ -58,7 +58,7 @@ body {
 
 .navbar a:hover,
 .navbar a.active {
-    color: #000;
+    color: #fff;
 }
 /* Hide the menu icon by default */
 .menu-icon {
