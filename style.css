@@ -394,11 +394,18 @@ li {
 }
 
 .about h2,
-.services h2,
 .portfolio h2,
+.services h2,
 .contact h2 {
     font-size: 36px;
     margin-bottom: 20px;
+    
+}
+.services h3{
+    color: #000;
+}
+.services li{
+    color: #fff;
 }
 
 .about p,
@@ -406,6 +413,7 @@ li {
 .portfolio p {
     font-size: 18px;
     color: #081b29;
+    color: #fff;
     margin-bottom: 20px;
 }
 
