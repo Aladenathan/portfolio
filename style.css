@@ -357,26 +357,30 @@ li {
 #about,
 #services,
 #contact {
-    background: #ffefd5;
+/*     background: #ffefd5; */
+    background: #fff;
     margin-left: 80px;
     margin-right: 80px;
     margin-bottom: 30px;
 }
 
 #about {
-    margin-top: 30px;
+/*     margin-top: 30px; */
     margin-left: 100px;
     margin-right: 100px;
+    background: linear-gradient(183deg, #3423ad, #00abf0);
 }
 
 #services {
-    background: #f4f4f9;
+/*     background: #f4f4f9; */
+    background: linear-gradient(183deg, #081b29, #00abf0);
     margin-left: 80px;
     margin-right: 80px;
 }
 
 #contact {
-    background: #f5f5dc;
+/*     background: #f5f5dc; */
+    background: linear-gradient(183deg, #f4f4f9, #081b29);
     margin-left: 60px;
     margin-right: 60px;
 }
