@@ -341,7 +341,7 @@ pages {
 h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #00abf0;
+    color: #081b29;
 }
 
 p {
@@ -368,7 +368,7 @@ li {
 /*     margin-top: 30px; */
     margin-left: 100px;
     margin-right: 100px;
-    background: linear-gradient(183deg, #3423ad, #00abf0);
+    background: linear-gradient(183deg, #00abf0, #081b29);
 }
 
 #services {
@@ -402,7 +402,7 @@ li {
     
 }
 .services h3{
-    color: #000;
+    color: #081b29;
 }
 .services li{
     color: #fff;
