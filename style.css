@@ -350,7 +350,10 @@ p {
 
 h3,
 li {
+    list-style: none;
+    font-size: 1.5em;
     color: #081b29;
+    font-family: Bebas Neue;
 }
 
 /* About Section */
@@ -399,13 +402,16 @@ li {
 .contact h2 {
     font-size: 36px;
     margin-bottom: 20px;
+    font-family: Source Code Pro;
     
 }
-.services h3{
-    color: #081b29;
+.services h4{
+    color: #fff;
+    font-size: 1.5em;
+    font-family: Bebas Neue;
 }
 .services li{
-    color: #fff;
+    color: #00abf0;
 }
 
 .about p,
@@ -415,6 +421,7 @@ li {
     color: #081b29;
     color: #fff;
     margin-bottom: 20px;
+    font-family: Roboto;
 }
 
 .contact form {
