@@ -341,7 +341,7 @@ pages {
 h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #081b29;
+    color: #00abf0;
 }
 
 p {
@@ -376,7 +376,7 @@ li {
 
 #services {
 /*     background: #f4f4f9; */
-    background: linear-gradient(183deg, #081b29, #00abf0);
+    background: linear-gradient(183deg, #081b29, #0878a5);
     margin-left: 80px;
     margin-right: 80px;
 }
@@ -408,10 +408,10 @@ li {
 .services h4{
     color: #fff;
     font-size: 1.5em;
-    font-family: Bebas Neue;
+/*     font-family: Bebas Neue; */
 }
 .services li{
-    color: #00abf0;
+    color: #e8ecce;
 }
 
 .about p,
@@ -586,11 +586,29 @@ li {
     .home-imghover {
         width: 100%;
     }
+     #services li {
+        list-style: none;
+        font-size: 1em;
+        font-family: Bebas Neue;
+        margin-bottom: 10px;
+        
+    }
+    .services h4{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .about p,
+    .services p,
+    .portfolio p,
+    .contact p {
+        font-size: 14px;
+    }
 
     .about h2,
     .services h2,
     .portfolio h2,
     .contact h2 {
-        font-size: 24px;
+        font-size: 14px;
+    
     }
 }
