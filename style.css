@@ -139,6 +139,7 @@ body {
     position: relative;
     font-size: 16px;
     margin: 20px 0 40px;
+    text-align: justify;
 }
 
 .home-content p::before {
@@ -352,7 +353,7 @@ h3,
 li {
     list-style: none;
     font-size: 1.5em;
-    color: #081b29;
+    color: #e8ecce;
     font-family: Bebas Neue;
 }
 
@@ -594,22 +595,24 @@ li {
         
     }
     .services h4{
-        font-size: 12px;
+        font-size: 8px;
         margin-bottom: 10px;
         font-family: sans-serif;
+        color: #e8ecce;
     }
     .about p,
     .services p,
     .portfolio p,
     .contact p {
-        font-size: 14px;
+        font-size: 10px;
+         text-align: justify;
     }
 
     .about h2,
     .services h2,
     .portfolio h2,
     .contact h2 {
-        font-size: 14px;
+        font-size: 12px;
     
     }
 }
