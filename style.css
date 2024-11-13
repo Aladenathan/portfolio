@@ -525,7 +525,7 @@ li {
 /* Mobile View */
 @media screen and (max-width: 768px) {
       .home {
-    height: 100vh;
+    height: 80vh;
     background: url(images/backgroundphone.jpg) no-repeat;
     background-size: cover;
     background-position: center;
