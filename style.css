@@ -525,7 +525,7 @@ li {
 /* Mobile View */
 @media screen and (max-width: 768px) {
       .home {
-    height: 80vh;
+    height: 100vh;
     background: url(images/backgroundphone.jpg) no-repeat;
     background-size: cover;
     background-position: center;
@@ -595,16 +595,19 @@ li {
         
     }
     .services h4{
-        font-size: 8px;
+        font-size: 12px;
         margin-bottom: 10px;
         font-family: sans-serif;
-        color: #e8ecce;
+/*         color: #e8ecce; */
     }
+     .services h3{
+        font-size: 17px;
+     }
     .about p,
     .services p,
     .portfolio p,
     .contact p {
-        font-size: 10px;
+        font-size: 15px;
          text-align: justify;
     }
 
@@ -612,7 +615,13 @@ li {
     .services h2,
     .portfolio h2,
     .contact h2 {
-        font-size: 12px;
-    
+        font-size: 15px;
     }
+    #about,
+    #services {
+    
+    padding: 30px;
+    /* padding-right: 30px; */
+    }
+
 }
