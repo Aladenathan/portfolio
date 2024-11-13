@@ -348,7 +348,15 @@ h2 {
 p {
     font-size: 1.1em;
 }
-
+.about h2{
+        color: #081b29;
+}
+.contact h2{
+        color: #081b29;;
+}
+.services h2{
+        color: #00abf0;
+}
 h3,
 li {
     list-style: none;
